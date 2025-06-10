@@ -1,0 +1,167 @@
+@font-face{
+    font-family: "sitelenpona";
+    src: url("nasin-nanpa.otf");
+}
+
+
+*{
+    font-family: "sitelenpona";
+}
+
+@media screen and (orientation: landscape){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0%;
+        margin: 0%;
+        background-color: #121212;
+    }
+    
+    .mainBox{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        flex-direction: column;
+        width: 90vw;
+        min-height: 100vh;
+        background-color: #303035;
+        color: white;
+    }
+    h1{
+        font-size: 5vw;
+        margin-bottom: 0vw;
+        margin-top: 2vw;
+        padding-top: 5vh;
+    }
+    span{
+        font-size: 2vw;
+    }
+    .seperator{
+        border-bottom: 0.15vw solid white;
+        width: 90%;
+        margin: 1vw;
+    }
+    .verticalSeperator{
+        border-left:0.15vw solid white;
+        margin-top: 3.2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    
+    .palialimi{
+        padding-top: 5vh;
+        width: 85%;
+    }
+    
+    .palimi{
+        font-size: 2vw;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .pokipipalimi{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .columnTitle{
+        font-weight: bolder;
+        padding-bottom: 0.2vw;
+        padding-top: 1vw;
+        font-size: 2vw;
+    }
+    
+    a{
+        color: blue;
+        text-decoration: none;
+    }
+
+    #lastSeperator{
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+        margin: 0%;
+        background-color: #121212;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .mainBox{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        flex-direction: column;
+        color: white;
+        background-color: #303035;
+        width: 100%;
+    }
+    h1{
+        font-size: 12vw;
+        margin-bottom: 0vw;
+        padding-top: 20px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .seperator{
+        border-bottom: 2px solid white;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .verticalSeperator{
+        border-bottom: 2px solid dimgray;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .palialimi{
+        padding-top: 40px;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    
+    .palimi{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .pokipipalimi{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 80%;
+    }
+    
+    .columnTitle{
+        font-weight: bolder;
+        padding-bottom: 0.2vw;
+        padding-top: 1vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    a{
+        color: blue;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    #lastSeperator{
+        display: initial;
+    }
+}
